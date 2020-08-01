@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding: 1% 15% 1%;
+}
+
+navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+body {
+    background-color: rgb(222, 185, 176);
+    position: relative;
+}
+
+.header_logo-box {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+.header_logo {
+    height: 155px;
+}
+
+#testimonials {
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    border: 5px solid #810000;
+    margin: 0 10px 0;
+}
+
+.testimonial-image {
+    width: 200px;
+    height: 500px;
+}
+
+.leftbox {
+    float: left;
+    width: 25%;
+    height: ;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.rightbox {
+    float: right;
+    width: 70%;
+    height: ;
+    font-size: 20px;
+}
+
+#description {
+    padding-top: 50px;
+    padding-right: 40px;
+    height: 520px;
+    border: 15px solid #222831;
+    border-radius: 1%;
+    background-color: #b2ebf2;
+}
+
+
+/* for gallery */
+
+#blog {
+    margin: 0;
+    padding-right: 30%;
+    padding-top: 5%;
+    background: #ebecf1;
+    font-family: sans-serif;
+    height: 100vh;
+    border: 7px solid #14b1ab;
+}
+
+.heading {
+    color: #1b1c25;
+    text-align: center;
+    padding-left: 35%;
+    font-size: 50px;
+}
+
+.welcome {
+    position: absolute;
+}
+
+.container {
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container .box {
+    position: relative;
+    width: 280px;
+    height: 200px;
+    border-radius: 7px;
+    background: white;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .8);
+    display: inline-block;
+}
+
+.container .box .imgbox {
+    position: relative;
+}
+
+.container .box .imgbox img {
+    transition: transform 2s;
+    object-fit: cover;
+    width: 280px;
+    height: 200px;
+    border-radius: 6px;
+}
+
+.container .box:hover .imgbox img {
+    transform: scale(1.15);
+}
+
+.responsive {
+    padding: 0px;
+    float: left;
+    width: 25%;
+}
+
+@media only screen and (max-width:700px) {
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+
+/* Contact us */
+
+#Contact-us {
+    padding: 0 30%;
+    text-align: center;
+    font-size: 30px font-family: sans-serif;
+}
+
+.contact-title {
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    <!-- transition: all 4s ease-in-out;
+    -->
+}
+
+.contact-title h2 {
+    font-size: 16px;
+}
+
+form {
+    margin-top: 50px;
+    text-align: center;
+    <!-- transition: all 4s ease-in-out;
+    -->
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+#socail {
+    padding: 5% 15%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
